@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+  <h3>Tooltip Example</h3>
+  <p>The data-placement attribute specifies the tooltip position.</p>
+  <ul class="list-inline">
+    <li><a href="file:///Users/krisha/Downloads/ojt/task/task2.html" data-toggle="tooltip" data-placement="top" title="Hooray!">Login Form</a></li><br>
+    <li><a href="https://silveroakuni.ac.in/#" data-toggle="tooltip" data-placement="bottom" title="Hooray!">Silver Oak Website</a></li><br>
+    <li><a href="https://silveroakuni.ac.in/contact" data-toggle="tooltip" data-placement="left" title="Hooray!">Contact page</a></li><br>
+    <li><a href="https://silveroakuni.ac.in/gallery" data-toggle="tooltip" data-placement="right" title="Hooray!">Gallery</a></li><br>
+    
+  </ul>
+</div>
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+
+</body>
+</html>
